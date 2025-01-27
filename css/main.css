@@ -1,12 +1,14 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: #FAFAFA;
   margin: 0;
   padding: 0;
+  color: #000000;
 }
 
 h1, h2, h3 {
   font-family: 'Stick No Bills', sans-serif;
+  color: #000000;
 }
 
 .container {
@@ -34,15 +36,24 @@ img {
 
 .main-nav ul li a {
   display: block;
-  color: inherit;
+  color: #0056b3;
   text-decoration: none;
   font-size: 1.25rem;
+}
+
+.main-nav ul li a:hover {
+  background-color: #e0f7fa;
+  color: #004080;
 }
 
 form input, form textarea {
   width: 100%;
   margin-bottom: 1rem;
   padding: .5rem 1rem;
+  background-color: #FAFAFA;
+  color: #333333;
+  border: 2px solid #ccc;
+  border-radius: 4px;
 }
 
 form textarea {
@@ -51,12 +62,26 @@ form textarea {
 }
 
 form button {
-  background: none;
-  border: 2px solid black;
-  padding: 8px; /* Made the button a better size for UX design */
+  background: #0056b3;
+  border: 2px solid #0056b3;
+  padding: 10px 15px;; /* Made the button a better size for UX design */
+  color: #ffffff;
   text-transform: uppercase;
+  border-radius: 4px;
+  cursor: pointer; /* Added for UX improvement */
+  margin-bottom: 2rem;
+}
+
+form button:hover {
+  background: #004080;
+  border-color: #004080;
 }
 
 footer {
-  padding: 2rem 0;
+  padding: 1rem 0;
+  background-color: #f0f0f0;
+  color: #333333;
+  text-align: center;
+  font-size: 0.87rem;
+  border-top: 1px solid #e0e0e0;
 }
