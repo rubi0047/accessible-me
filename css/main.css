@@ -36,6 +36,21 @@ img {
   width: 100%;
 }
 
+.skip-link {
+  position: absolute;
+  top: -44px;
+  left: 0;
+  background-color: #0056b3;
+  color: white;
+  padding: 10px;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 10px;
+}
+
 .main-nav ul {
   list-style: none;
   display: flex;
