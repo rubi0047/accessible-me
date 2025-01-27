@@ -4,11 +4,26 @@ body {
   margin: 0;
   padding: 0;
   color: #000000;
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 
 h1, h2, h3 {
   font-family: 'Stick No Bills', sans-serif;
   color: #000000;
+  line-height: 1.3;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
 }
 
 .container {
@@ -54,6 +69,8 @@ form input, form textarea {
   color: #333333;
   border: 2px solid #ccc;
   border-radius: 4px;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 form textarea {
@@ -64,11 +81,11 @@ form textarea {
 form button {
   background: #0056b3;
   border: 2px solid #0056b3;
-  padding: 10px 15px;; /* Made the button a better size for UX design */
+  padding: 10px 15px;
   color: #ffffff;
   text-transform: uppercase;
   border-radius: 4px;
-  cursor: pointer; /* Added for UX improvement */
+  cursor: pointer;
   margin-bottom: 2rem;
 }
 
@@ -78,10 +95,9 @@ form button:hover {
 }
 
 footer {
-  padding: 1rem 0;
+  padding: 1.5rem;
   background-color: #f0f0f0;
   color: #333333;
   text-align: center;
-  font-size: 0.87rem;
   border-top: 1px solid #e0e0e0;
 }
