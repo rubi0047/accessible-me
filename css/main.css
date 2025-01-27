@@ -5,13 +5,8 @@ body {
   padding: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+h1, h2, h3 {
+  font-family: 'Stick No Bills', sans-serif;
 }
 
 .container {
@@ -45,15 +40,12 @@ img {
 }
 
 form input, form textarea {
-  display: block;
   width: 100%;
   margin-bottom: 1rem;
   padding: .5rem 1rem;
 }
 
 form textarea {
-  min-height: 150px;
-  max-height: 150px;
   height: 150px;
   resize: none;
 }
@@ -61,7 +53,7 @@ form textarea {
 form button {
   background: none;
   border: 2px solid black;
-  padding: 1rem;
+  padding: 8px; /* Made the button a better size for UX design */
   text-transform: uppercase;
 }
 
