@@ -116,3 +116,8 @@ footer {
   text-align: center;
   border-top: 1px solid #e0e0e0;
 }
+
+.skip-to-top:hover {
+  background-color: #004080;
+  color: #ffffff;
+}
