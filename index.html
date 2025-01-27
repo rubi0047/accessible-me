@@ -13,54 +13,54 @@
 </head>
 
 <body>
-  <a href="#main-content" class="skip-link">Skip to main content</a>
-  <a href="#footer" class="skip-link">Skip to footer</a>
+  <a href="#main-content" class="skip-link" role="link">Skip to main content</a>
+  <a href="#footer" class="skip-link" role="link">Skip to footer</a>
   
   <div class="container">
     <header id="Home" role="banner">
-      <h1>Jam Box Studios</h1>
-      <nav class="main-nav">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">Reservation</a></li>
-          <li><a href="#">Studio</a></li>
+      <h1 role="heading" aria-level="1">Jam Box Studios</h1>
+      <nav class="main-nav" role="navigation">
+        <ul role="list">
+          <li><a href="#" role="link">Home</a></li>
+          <li><a href="#" role="link">Products</a></li>
+          <li><a href="#" role="link">Reservation</a></li>
+          <li><a href="#" role="link">Studio</a></li>
         </ul>
       </nav>
       <img src="https://picsum.photos/1200/900" alt="A rotating set of banner images set in nature">
     </header>
     
-    <main id="main-content">
-      <article class="main-content">
-        <h2>Welcome to Jam Box</h2>
+    <main id="main-content" role="main">
+      <article class="main-content" role="article">
+        <h2 role="heading" aria-level="2">Welcome to Jam Box</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
-        <div class="owner">
-          <h3>Meet the owner</h3>
+        <div class="owner" role="region">
+          <h3 role="heading" aria-level="3">Meet the owner</h3>
           <ul>
             <li>Name: John Doe</li>
             <li>Title: CEO</li>
             <li>Email: johnjoe@jambox.ca</li>
             <li>Phone: 613-000-0000</li>
           </ul>
-          <h3>Address</h3>
+          <h3 role="heading" aria-level="3">Address</h3>
           <p>Jambox Studios 123 Guitar Road, Musicville, Danceistan B3T 0L0</p>
         </div>
 
         <div class="contact-section">
-          <h3>Contact Us</h3>
-          <form action="thanks.html">
-            <label for="full-name">Full Name</label>
-            <input type="text" id="full-name" placeholder="Full Name" required>
+          <h3 role="heading" aria-level="3">Contact Us</h3>
+          <form action="thanks.html" role="form">
+            <label for="full-name" id="label-full-name">Full Name</label>
+            <input type="text" id="full-name" placeholder="Full Name" aria-labelledby="label-full-name" required>
             
-            <label for="email">Email</label>
-            <input type="email" id="email" placeholder="Email" required>
+            <label for="email" id="label-email">Email</label>
+            <input type="email" id="email" aria-labelledby="label-email" placeholder="Email" required>
             
-            <label for="subject">Subject</label>
-            <input type="text" id="subject" placeholder="Subject" required>
+            <label for="subject" id="label-subject">Subject</label>
+            <input type="text" id="subject" aria-labelledby="label-subject" placeholder="Subject" required>
             
-            <label for="message">Your Message</label>
-            <textarea id="message" placeholder="Your message" required></textarea>
+            <label for="message" id="label-message">Your Message</label>
+            <textarea id="message" aria-labelledby="label-message" placeholder="Your message" required></textarea>
             
             <button type="submit">Send</button>
           </form>
@@ -68,7 +68,7 @@
       </article>
     </main>
     
-    <footer id="footer">
+    <footer id="footer" role="contentinfo">
       &copy; 2021 Jam Box Studios
     </footer>
   </div>
