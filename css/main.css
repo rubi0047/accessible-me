@@ -40,7 +40,7 @@ img {
   position: absolute;
   top: -50px;
   background-color: #0056b3;
-  color: white;
+  color: #FAFAFA;
   padding: 10px;
   font-size: 1.1rem;
   text-decoration: none;
@@ -96,7 +96,7 @@ form button {
   background: #0056b3;
   border: 2px solid #0056b3;
   padding: 10px 15px;
-  color: #ffffff;
+  color: #FAFAFA;
   text-transform: uppercase;
   border-radius: 4px;
   cursor: pointer;
@@ -118,5 +118,5 @@ footer {
 
 .skip-to-top:hover {
   background-color: #004080;
-  color: #ffffff;
+  color: #FAFAFA;
 }
